@@ -12,7 +12,7 @@ header {
 header h1 {
   float: left;
   height: 35px;
-  width: 35px;
+  width: 200px;
   margin-top: 8px;
 }
 
@@ -24,4 +24,22 @@ nav li {
   background: #99CE49;
   color: white;
   cursor: pointer;
+  height: 35px;
+  width: 60px;
+}
+
+#lowerbar {
+  background: #111FE1;
+}
+
+#lowerbar nav li {
+  background: #111FE1;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#hero {
+  background: url('./images/1.jpg') no-repeat;
 }
