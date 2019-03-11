@@ -36,15 +36,43 @@ nav li {
   background: #111FE1;
   color: white;
   display: inline-flex;
- flex-direction: row;
- justify-content: flex-start;
- align-items: center;
+  align-items: center;
 }
 
 #hero {
   background: url('../images/1.jpg') no-repeat;
   background-size: cover;
   text-align: left;
-  padding: 400px 0px;
-  margin-bottom: 50px;
+  padding: 300px 400px;
+  margin-bottom: 1px;
+}
+
+#hero h2 {
+  font-size: 20px;
+  color: white;
+  margin-left: 0px;
+}
+
+#museum-info{
+  background: #0F0E0E;
+  color: white;
+  font-size: 15px;
+}
+
+.three-col {
+  text-align: left;
+  vertical-align: top;
+}
+
+.three-col img {
+  height: 300px;
+  width: 400px;
+}
+
+#more-sites {
+  background: #EDEDED;
+  background-size: cover;
+  padding: 100px 100px;
+  display: inline-flex;
+  align-items: center;
 }
