@@ -1,0 +1,27 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background: #0F0E0E;
+  color: white;
+  height: 50px;
+  padding: 0 25px;
+}
+
+header h1 {
+  float: left;
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+}
+
+header nav {
+  float: right;
+}
+
+nav li {
+  background: #99CE49;
+  color: white;
+  cursor: pointer;
+}
