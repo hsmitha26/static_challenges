@@ -76,3 +76,11 @@ nav li {
   display: inline-flex;
   align-items: center;
 }
+
+footer {
+  background: #0F0E0E;
+  color: white;
+  margin-top: 10px;
+  padding: 20px 0;
+  text-align: left;
+}
