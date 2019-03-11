@@ -60,21 +60,22 @@ nav li {
 }
 
 .three-col {
+  display: inline-block;
   text-align: left;
   vertical-align: top;
+  margin: 0 10px;
 }
 
 .three-col img {
   height: 300px;
   width: 400px;
+  margin: 10px 0;
 }
 
 #more-sites {
   background: #EDEDED;
   background-size: cover;
-  padding: 100px 100px;
-  display: inline-flex;
-  align-items: center;
+  padding: 10px 10px;
 }
 
 footer {
