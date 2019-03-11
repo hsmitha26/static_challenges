@@ -36,10 +36,15 @@ nav li {
   background: #111FE1;
   color: white;
   display: inline-flex;
-  align-items: center;
-  justify-content: space-around;
+ flex-direction: row;
+ justify-content: flex-start;
+ align-items: center;
 }
 
 #hero {
-  background: url('./images/1.jpg') no-repeat;
+  background: url('../images/1.jpg') no-repeat;
+  background-size: cover;
+  text-align: left;
+  padding: 400px 0px;
+  margin-bottom: 50px;
 }
